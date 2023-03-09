@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*font-family: 'Inconsolata', monospace;*/
+/*font-family: 'Montserrat', sans-serif;*/
+/*font-family: 'Space Mono', monospace;*/
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Inconsolata', monospace;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #333333;
+    cursor: pointer;
+}
+
+.content-container {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.content-img img {
+    height: 447px;
+    width: 539px;
+    left: 77px;
+    top: 265px;
+    border-radius: 0px;
+
+}
+
+.content-info {
+    margin: 0 118px;
+}
+
+h1 {
+    font-family: 'Space Mono', monospace;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    color: #333333;
+    height: 190px;
+    width: 586px;
+
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+    margin: 36px 0 64px 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4F4F4F;
+}
+
+button {
+    font-family: 'Space Mono', monospace;
+    border: none;
+    width: 216px;
+    height: 68px;
+    background: #333333;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #BDBDBD;
+    margin: 178px 50px;
+}
+
+b {
+    color: black;
+}
+
+@media screen and (max-width: 900px) {
+    .content-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content-img img {
+        height: 238px;
+        width: 286.82px;
+        margin: 0 9px 0 -53px
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        color: #333333;
+        width: 350px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #4F4F4F;
+        width: 328px;
+        height: 81px;
+        margin: 49px 0 40px -13px;
+    }
+
+    button {
+        width: 216px;
+        height: 68px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        margin: -29px 0 0 25px;
+    }
+
+    .footer {
+        font-size: 14px;
+        line-height: 17px;
+        margin: 35px 0 0 -70px;
+    }
+}
